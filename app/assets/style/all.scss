@@ -1,1 +1,9 @@
 @import "bootstrap/bootstrap";
+
+//無腦鎮壓btn-primary .btn-light顏色
+.btn-primary{
+    color:$white;
+}
+.btn-light{
+    color:$dark;
+}
