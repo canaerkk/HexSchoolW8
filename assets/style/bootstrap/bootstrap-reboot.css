@@ -137,10 +137,10 @@ sup {
   top: -.5em; }
 
 a {
-  color: #C0A4A5;
+  color: #fff;
   text-decoration: underline; }
   a:hover {
-    color: #9a8384; }
+    color: #cccccc; }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
