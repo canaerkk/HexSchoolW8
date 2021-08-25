@@ -1,0 +1,11 @@
+.bg-landing{
+    background-image: url(../images/landing.jpeg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    height: 582px;
+    @include media-breakpoint-down(md){
+        height: 560px;
+    }
+}
+
