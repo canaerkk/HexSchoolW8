@@ -4,8 +4,11 @@
     background-position: 100% 100%;
     background-size: cover;
     height: 582px;
-    @include media-breakpoint-down(md){
-        height: 560px;
+}
+.card-img{
+    object-fit: cover;
+    height: 420px;
+    @media (min-width:768px ) and (max-width:1280px){
+        height: 252px;
     }
 }
-
