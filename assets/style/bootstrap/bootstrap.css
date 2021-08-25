@@ -11568,23 +11568,4 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-.btn-primary {
-  color: #fff; }
-
-.btn-light {
-  color: #707070; }
-
-.navbar-light .navbar-nav .nav-link {
-  color: #707070; }
-
-.logo {
-  height: 31px; }
-
-@media (max-width: 575.98px) {
-  .h3 {
-    font-size: 28px; } }
-
-.card {
-  border-radius: 1rem; }
-
-/*# sourceMappingURL=all.css.map */
+/*# sourceMappingURL=bootstrap.css.map */
