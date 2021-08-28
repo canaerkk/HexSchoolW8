@@ -11587,4 +11587,16 @@ textarea.form-control-lg {
 .card {
   border-radius: 1rem; }
 
+.img-ratio-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%; }
+
+.img-ratio-md-cover {
+  height: 100%; }
+  @media (min-width: 765px) {
+    .img-ratio-md-cover {
+      height: 48%;
+      width: 100%; } }
+
 /*# sourceMappingURL=all.css.map */

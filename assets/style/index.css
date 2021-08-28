@@ -57,4 +57,13 @@
     .card-active {
       width: 115%; } }
 
+.img-main {
+  height: 210px; }
+  @media (min-width: 765px) {
+    .img-main {
+      height: 266px; } }
+  @media (min-width: 992px) {
+    .img-main {
+      height: 444px; } }
+
 /*# sourceMappingURL=index.css.map */
