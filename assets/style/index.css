@@ -9,8 +9,54 @@
   -o-object-fit: cover;
      object-fit: cover;
   height: 420px; }
-  @media (min-width: 768px) and (max-width: 1280px) {
+  @media (min-width: 768px) and (max-width: 992px) {
     .card-img {
       height: 252px; } }
+
+.sub-img {
+  height: 628px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.card-circle {
+  height: 48px;
+  width: auto; }
+  @media (min-width: 765px) {
+    .card-circle {
+      height: 68px; } }
+
+.card-list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+
+.card-muted {
+  width: 100%; }
+  @media (min-width: 765px) {
+    .card-muted {
+      width: 90%; } }
+  @media (min-width: 992px) {
+    .card-muted {
+      width: 80%; } }
+  .card-muted .card-active {
+    width: 120%; }
+
+.card-active {
+  width: 100%; }
+  @media (min-width: 765px) {
+    .card-active {
+      width: 100%; } }
+  @media (min-width: 992px) {
+    .card-active {
+      width: 115%; } }
 
 /*# sourceMappingURL=index.css.map */
