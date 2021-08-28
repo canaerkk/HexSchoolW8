@@ -48,3 +48,12 @@
         width: 115%;
     }
 }
+.img-main{
+    height: 210px;
+    @media (min-width:765px) {
+        height: 266px;
+    }
+    @media (min-width:992px) {
+        height: 444px;
+    }
+}

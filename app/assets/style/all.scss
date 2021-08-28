@@ -24,3 +24,14 @@
 .card{
     border-radius: 1rem;
 }
+.img-ratio-cover{
+    object-fit: cover;
+    height: 100%;
+}
+.img-ratio-md-cover{
+    height: 100%;
+    @media (min-width:765px) {
+        height: 48%;
+        width: 100%;
+    }
+}
