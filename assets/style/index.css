@@ -46,9 +46,7 @@
       width: 90%; } }
   @media (min-width: 992px) {
     .card-muted {
-      width: 80%; } }
-  .card-muted .card-active {
-    width: 120%; }
+      width: 100%; } }
 
 .card-active {
   width: 100%; }
