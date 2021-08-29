@@ -81,23 +81,12 @@
     .container-custom {
       max-width: 100%; } }
 
-.swiper-wrapper {
+.swiper-lesson {
   -ms-flex-wrap: nowrap !important;
       flex-wrap: nowrap !important; }
   @media (max-width: 992px) {
-    .swiper-wrapper {
+    .swiper-lesson {
       -ms-flex-wrap: wrap !important;
           flex-wrap: wrap !important; } }
-
-@media (min-width: 576px) {
-  .position-sm-absolute {
-    position: absolute; }
-  .course-title {
-    top: 50%;
-    left: 0;
-    right: 0;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%); } }
 
 /*# sourceMappingURL=index.css.map */
