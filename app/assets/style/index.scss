@@ -74,22 +74,9 @@
     }
   }
 
-  .swiper-wrapper {
+  .swiper-lesson {
     flex-wrap: nowrap !important;
     @media (max-width: 992px) {
       flex-wrap: wrap !important;
-    }
-  }
-
-  
-  @media (min-width: 576px) {
-    .position-sm-absolute {
-      position: absolute;
-    }
-    .course-title {
-      top: 50%;
-      left: 0;
-      right: 0;
-      transform: translateY(-50%);
     }
   }
