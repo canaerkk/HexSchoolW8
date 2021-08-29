@@ -57,3 +57,39 @@
         height: 444px;
     }
 }
+
+.container-custom {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin: 0 auto;
+    @media (min-width: 576px) {
+      max-width: 540px;
+    }
+    @media (min-width: 768px) {
+      max-width: 720px;
+    }
+    @media (min-width: 992px) {
+      max-width: 100%;
+    }
+  }
+
+  .swiper-wrapper {
+    flex-wrap: nowrap !important;
+    @media (max-width: 992px) {
+      flex-wrap: wrap !important;
+    }
+  }
+
+  
+  @media (min-width: 576px) {
+    .position-sm-absolute {
+      position: absolute;
+    }
+    .course-title {
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%);
+    }
+  }
